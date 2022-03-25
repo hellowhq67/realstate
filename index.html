@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-----customCSs----------------->
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./component.css">
+    <link rel="stylesheet" href="./button.css">
+    <link rel="stylesheet" href="./style.css">
+    <!----X-customCSs------------X----->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section id="map-bar">
+
+        <div class="map">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175951.830273399!2d-107.7936372464902!3d38.9807306744067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874014749b1856b7%3A0xc75483314990a7ff!2sColorado%2C%20USA!5e0!3m2!1sen!2sbd!4v1647271839365!5m2!1sen!2sbd"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="map-selector">
+                <form action="" class="search-box felx-col">
+                    <input type="text" placeholder="Property Id">
+
+                    <select class="select-box" name="" id="">
+                        <option value="">Status</option>
+                        <option value="">Rent</option>
+                        <option value="">Sale</option>
+
+
+
+                    </select>
+                    <select class="select-box" name="" id="">
+                        <option value="">Country</option>
+                        <option value="">France</option>
+                        <option value="">Great Britain</option>
+                        <option value="">Spain</option>
+                        <option value="">Russia</option>
+
+
+
+                    </select>
+                    <select class="select-box" name="" id="">
+                        <option value="">City</option>
+                        <option value="">New York</option>
+                        <option value="">Los Angeles</option>
+                        <option value="">Chicago</option>
+                        <option value="">Houston</option>
+                        <option value="">Philadelphia</option>
+
+                    </select>
+                    <select class="select-box" name="" id="">
+                        <option value="">Distict</option>
+                        <option value="">Manhattan</option>
+                        <option value="">The Bronx</option>
+                        <option value="">Brooklyn</option>
+                        <option value="">Queens</option>
+                        <option value="">Stanten</option>
+
+                    </select>
+                    <select class="select-box" name="" id="">
+                        <option value="">Property type</option>
+                        <option value="">Apartment</option>
+                        <option value="">Condominium</option>
+                        <option value="">Cottage</option>
+                        <option value="">Flat</option>
+                        <option value="">House</option>
+
+                    </select>
+                    <div class="slidecontainer">
+                        <input type="range" min="11200" max="1122489" value="50" class="slider" id="myRange">
+                        <p>Price:$ <span id="demo"></span></p>
+                    </div>
+                    <button class="subBtn">Search Now</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <section id="nav">
+        <div class="info-conteiner felx-spc">
+            <div class="info-col">
+                <p><span>Email:</span>+880349084</p>&nbsp;
+                <p><span>phone:</span>zoner@example.com</p>
+            </div>
+            <ul class="flex-center info-flex">
+
+                <li><a href="">Creat Agency</a></li>
+                <li><a href="">Register</a></li>
+                <li><a href="">Sign In</a></li>
+                <li><a href=""><img src="./image-box/flag/united-kingdom (1).png" alt=""></a></li>
+                <li><a href=""><img src="./image-box/flag/united-states-of-america.png" alt=""></a></li>
+                <li><a href=""><img src="./image-box/flag/germany.png" alt=""></a></li>
+
+            </ul>
+        </div>
+        <div class=" navbar felx-spc">
+            <div class="nav-logo flex-center">&nbsp;
+                <i class="fas fa-home"></i>
+                <h2>HQ</h2>
+            </div>
+            <ul id="navBar" class=" nav-felx flex-center">
+                <li><a href="">Home</a></li>
+                <li class="drop-menu"><a href="">Properties &nbsp;<i class="fas fa-sort-down"></i></a>
+                    <ul class="Drop-Down">
+                        <li><a href="">Propertie Details</a></li>
+                        <li><a href="">Drop2</a></li>
+                        <li><a href="">Drop 33</a></li>
+                        <li><a href="">Drop 4</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="">Page</a></li>
+                <li class="drop-menu"><a href="">Blog&nbsp;<i class="fas fa-sort-down"></i></a>
+                    <ul class="Drop-Down">
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Drop2</a></li>
+                        <li><a href="">Drop 3</a></li>
+                        <li><a href="">Drop 4</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="">Contact</a></li>
+                <a href="#"><i id="close" class="fas fa-times"></i></a>
+
+
+            </ul>
+
+
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-bars"></i>
+        </div>
+    </section>
+    <section class=" feature">
+        <div class="pro-heading sectionP1">
+            <h1>featured Properties</h1>
+            <hr>
+        </div>
+        <div class="pro-conteiner flex-center">
+
+            <div class="pro-col">
+                <div class="pro-img">
+                    <img src="./image-box/house/aaron-huber-oMOx_wV6mLQ-unsplash.jpg" alt="">
+                </div>
+                <div class="pro-info">
+                    <span class="price">$&nbsp;11,000</span>
+                    <h3>3398Lodgeville Road</h3>
+                    <p>califonia, USA</p>
+
+                </div>
+
+                <div class="pro-deatils">
+                    <ul class="felx-spc">
+                        <li>
+                            <p>Area:</p>
+                        </li>
+                        <li>
+                            <p>Bed:</p>
+                        </li>
+                        <li>
+                            <p>Bath:</p>
+                        </li>
+                        <li>
+                            <p>Garage:</p>
+                        </li>
+                    </ul>
+                    <ul class="felx-spc">
+                        <li>
+                            <p>01:</p>
+                        </li>
+                        <li>
+                            <p>2:</p>
+                        </li>
+                        <li>
+                            <p>1:</p>
+                        </li>
+                        <li>
+                            <p>0:</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pro-col">
+                <div class="pro-img">
+                    <img src="./image-box/house/aaron-huber-s95oB2n9jng-unsplash.jpg" alt="">
+                </div>
+                <div class="pro-info">
+                    <span class="price">$&nbsp;11,000</span>
+                    <h3>3398Lodgeville Road</h3>
+                    <p>califonia, USA</p>
+                </div>
+
+
+                <div class="pro-deatils">
+                    <ul class="felx-spc">
+                        <li>
+                            <p>Area:</p>
+                        </li>
+                        <li>
+                            <p>Bed:</p>
+                        </li>
+                        <li>
+                            <p>Bath:</p>
+                        </li>
+                        <li>
+                            <p>Garage:</p>
+                        </li>
+                    </ul>
+                    <ul class="felx-spc">
+                        <li>
+                            <p>01:</p>
+                        </li>
+                        <li>
+                            <p>2:</p>
+                        </li>
+                        <li>
+                            <p>1:</p>
+                        </li>
+                        <li>
+                            <p>0:</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pro-col">
+                <div class="pro-img">
+                    <img src="./image-box/house/dan-gold-4HG3Ca3EzWw-unsplash.jpg" alt="">
+                </div>
+                <div class="pro-info">
+                    <span class="price">$&nbsp;11,000</span>
+                    <h3>3398Lodgeville Road</h3>
+                    <p>califonia, USA</p>
+                </div>
+
+                <div class="pro-deatils">
+                    <ul class="felx-spc">
+                        <li>
+                            <p>Area:</p>
+                        </li>
+                        <li>
+                            <p>Bed:</p>
+                        </li>
+                        <li>
+                            <p>Bath:</p>
+                        </li>
+                        <li>
+                            <p>Garage:</p>
+                        </li>
+                    </ul>
+                    <ul class="felx-spc">
+                        <li>
+                            <p>01:</p>
+                        </li>
+                        <li>
+                            <p>2:</p>
+                        </li>
+                        <li>
+                            <p>1:</p>
+                        </li>
+                        <li>
+                            <p>0:</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pro-col">
+                <div class="pro-img">
+                    <img src="./image-box/house/derek-thomson-p50HcC0YrL0-unsplash.jpg" alt="">
+                </div>
+                <div class="pro-info">
+                    <span class="price">$&nbsp;11,000</span>
+                    <h3>3398Lodgeville Road</h3>
+                    <p>califonia, USA</p>
+                </div>
+
+                <div class="pro-deatils">
+                    <ul class="felx-spc">
+                        <li>
+                            <p>Area:</p>
+                        </li>
+                        <li>
+                            <p>Bed:</p>
+                        </li>
+                        <li>
+                            <p>Bath:</p>
+                        </li>
+                        <li>
+                            <p>Garage:</p>
+                        </li>
+                    </ul>
+                    <ul class="felx-spc">
+                        <li>
+                            <p>01:</p>
+                        </li>
+                        <li>
+                            <p>2:</p>
+                        </li>
+                        <li>
+                            <p>1:</p>
+                        </li>
+                        <li>
+                            <p>0:</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="p2">
+        <div class="pro-heading sectionP1">
+            <h1>Price Drop</h1>
+            <hr>
+        </div>
+        <div class=" pro-conteiner-2 felx-spc">
+
+            <div class="pro-col">
+                <div class="pro-img">
+                    <img src="./image-box/house/jens-behrmann-rU-R1Gx7RrI-unsplash.jpg" alt="">
+                </div>
+                <div class="pro-info">
+                    <span class="price">$&nbsp;11,000</span>
+                    <h3>3398Lodgeville Road</h3>
+                    <p>califonia, USA</p>
+
+                </div>
+
+                <div class="pro-deatils">
+                    <ul class="felx-spc">
+                        <li>
+                            <p>Area:</p>
+                        </li>
+                        <li>
+                            <p>Bed:</p>
+                        </li>
+                        <li>
+                            <p>Bath:</p>
+                        </li>
+                        <li>
+                            <p>Garage:</p>
+                        </li>
+                    </ul>
+                    <ul class="felx-spc">
+                        <li>
+                            <p>01:</p>
+                        </li>
+                        <li>
+                            <p>2:</p>
+                        </li>
+                        <li>
+                            <p>1:</p>
+                        </li>
+                        <li>
+                            <p>0:</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pro-col">
+                <div class="pro-img">
+                    <img src="./image-box/house/sidekix-media-4-7s995Kv1U-unsplash.jpg" alt="">
+                </div>
+                <div class="pro-info">
+                    <span class="price">$&nbsp;11,000</span>
+                    <h3>3398Lodgeville Road</h3>
+                    <p>califonia, USA</p>
+                </div>
+
+
+                <div class="pro-deatils">
+                    <ul class="felx-spc">
+                        <li>
+                            <p>Area:</p>
+                        </li>
+                        <li>
+                            <p>Bed:</p>
+                        </li>
+                        <li>
+                            <p>Bath:</p>
+                        </li>
+                        <li>
+                            <p>Garage:</p>
+                        </li>
+                    </ul>
+                    <ul class="felx-spc">
+                        <li>
+                            <p>01:</p>
+                        </li>
+                        <li>
+                            <p>2:</p>
+                        </li>
+                        <li>
+                            <p>1:</p>
+                        </li>
+                        <li>
+                            <p>0:</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pro-col">
+                <div class="pro-img">
+                    <img src="./image-box/house/dan-gold-4HG3Ca3EzWw-unsplash.jpg" alt="">
+                </div>
+                <div class="pro-info">
+                    <span class="price">$&nbsp;11,000</span>
+                    <h3>3398Lodgeville Road</h3>
+                    <p>califonia, USA</p>
+                </div>
+
+                <div class="pro-deatils">
+                    <ul class="felx-spc">
+                        <li>
+                            <p>Area:</p>
+                        </li>
+                        <li>
+                            <p>Bed:</p>
+                        </li>
+                        <li>
+                            <p>Bath:</p>
+                        </li>
+                        <li>
+                            <p>Garage:</p>
+                        </li>
+                    </ul>
+                    <ul class="felx-spc">
+                        <li>
+                            <p>01:</p>
+                        </li>
+                        <li>
+                            <p>2:</p>
+                        </li>
+                        <li>
+                            <p>1:</p>
+                        </li>
+                        <li>
+                            <p>0:</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pro-col">
+                <div class="pro-img">
+                    <img src="./image-box/house/derek-thomson-p50HcC0YrL0-unsplash.jpg" alt="">
+                </div>
+                <div class="pro-info">
+                    <span class="price">$&nbsp;11,000</span>
+                    <h3>3398Lodgeville Road</h3>
+                    <p>califonia, USA</p>
+                </div>
+
+                <div class="pro-deatils">
+                    <ul class="felx-spc">
+                        <li>
+                            <p>Area:</p>
+                        </li>
+                        <li>
+                            <p>Bed:</p>
+                        </li>
+                        <li>
+                            <p>Bath:</p>
+                        </li>
+                        <li>
+                            <p>Garage:</p>
+                        </li>
+                    </ul>
+                    <ul class="felx-spc">
+                        <li>
+                            <p>01:</p>
+                        </li>
+                        <li>
+                            <p>2:</p>
+                        </li>
+                        <li>
+                            <p>1:</p>
+                        </li>
+                        <li>
+                            <p>0:</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="p2">
+        <div class="pro-heading sectionP1">
+            <h1>Our Service</h1>
+            <hr>
+        </div>
+        <div class="flex-center Service">
+            <div class="service-col">
+                <div class="srv-img">
+                    <i class="fas fa-file"></i>
+                </div>
+                <div class="flex-col-2">
+                    <h2>Wide Range of Properties</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, aperiam.</p>
+                    <a class="btn-2" href="">Read More &nbsp;<i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="service-col">
+                <div class="srv-img">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="flex-col-2">
+                    <h2>14 Agents Of your Service </h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, aperiam.</p>
+                    <a class="btn-2" href="">Read More &nbsp;<i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="service-col">
+                <div class="srv-img">
+                    <i class="far fa-money-bill-alt"></i>
+                </div>
+                <div class="flex-col-2">
+                    <h2>Best Price Garnted</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, aperiam.</p>
+                    <a class="btn-2" href="">Read More &nbsp;<i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p2">
+        <div class="pro-heading sectionP1">
+            <h1>New Properties For You</h1>
+            <hr>
+        </div>
+        <div class=" pro-conteiner-2 felx-spc">
+
+            <div class="pro-col">
+                <div class="pro-img">
+                    <img src="./image-box/house/jens-behrmann-rU-R1Gx7RrI-unsplash.jpg" alt="">
+                </div>
+                <div class="pro-info">
+                    <span class="price">$&nbsp;11,000</span>
+                    <h3>3398Lodgeville Road</h3>
+                    <p>califonia, USA</p>
+
+                </div>
+
+                <div class="pro-deatils">
+                    <ul class="felx-spc">
+                        <li>
+                            <p>Area:</p>
+                        </li>
+                        <li>
+                            <p>Bed:</p>
+                        </li>
+                        <li>
+                            <p>Bath:</p>
+                        </li>
+                        <li>
+                            <p>Garage:</p>
+                        </li>
+                    </ul>
+                    <ul class="felx-spc">
+                        <li>
+                            <p>01:</p>
+                        </li>
+                        <li>
+                            <p>2:</p>
+                        </li>
+                        <li>
+                            <p>1:</p>
+                        </li>
+                        <li>
+                            <p>0:</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pro-col">
+                <div class="pro-img">
+                    <img src="./image-box/house/sidekix-media-4-7s995Kv1U-unsplash.jpg" alt="">
+                </div>
+                <div class="pro-info">
+                    <span class="price">$&nbsp;11,000</span>
+                    <h3>3398Lodgeville Road</h3>
+                    <p>califonia, USA</p>
+                </div>
+
+
+                <div class="pro-deatils">
+                    <ul class="felx-spc">
+                        <li>
+                            <p>Area:</p>
+                        </li>
+                        <li>
+                            <p>Bed:</p>
+                        </li>
+                        <li>
+                            <p>Bath:</p>
+                        </li>
+                        <li>
+                            <p>Garage:</p>
+                        </li>
+                    </ul>
+                    <ul class="felx-spc">
+                        <li>
+                            <p>01:</p>
+                        </li>
+                        <li>
+                            <p>2:</p>
+                        </li>
+                        <li>
+                            <p>1:</p>
+                        </li>
+                        <li>
+                            <p>0:</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pro-col">
+                <div class="pro-img">
+                    <img src="./image-box/house/dan-gold-4HG3Ca3EzWw-unsplash.jpg" alt="">
+                </div>
+                <div class="pro-info">
+                    <span class="price">$&nbsp;11,000</span>
+                    <h3>3398Lodgeville Road</h3>
+                    <p>califonia, USA</p>
+                </div>
+
+                <div class="pro-deatils">
+                    <ul class="felx-spc">
+                        <li>
+                            <p>Area:</p>
+                        </li>
+                        <li>
+                            <p>Bed:</p>
+                        </li>
+                        <li>
+                            <p>Bath:</p>
+                        </li>
+                        <li>
+                            <p>Garage:</p>
+                        </li>
+                    </ul>
+                    <ul class="felx-spc">
+                        <li>
+                            <p>01:</p>
+                        </li>
+                        <li>
+                            <p>2:</p>
+                        </li>
+                        <li>
+                            <p>1:</p>
+                        </li>
+                        <li>
+                            <p>0:</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pro-col">
+                <div class="pro-img">
+                    <img src="./image-box/house/derek-thomson-p50HcC0YrL0-unsplash.jpg" alt="">
+                </div>
+                <div class="pro-info">
+                    <span class="price">$&nbsp;11,000</span>
+                    <h3>3398Lodgeville Road</h3>
+                    <p>califonia, USA</p>
+                </div>
+
+                <div class="pro-deatils">
+                    <ul class="felx-spc">
+                        <li>
+                            <p>Area:</p>
+                        </li>
+                        <li>
+                            <p>Bed:</p>
+                        </li>
+                        <li>
+                            <p>Bath:</p>
+                        </li>
+                        <li>
+                            <p>Garage:</p>
+                        </li>
+                    </ul>
+                    <ul class="felx-spc">
+                        <li>
+                            <p>01:</p>
+                        </li>
+                        <li>
+                            <p>2:</p>
+                        </li>
+                        <li>
+                            <p>1:</p>
+                        </li>
+                        <li>
+                            <p>0:</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class=" pro-conteiner-2 felx-spc">
+
+            <div class="pro-col">
+                <div class="pro-img">
+                    <img src="./image-box/house/sidekix-media-4-7s995Kv1U-unsplash.jpg" alt="">
+
+
+                </div>
+                <div class="pro-info">
+                    <span class="price">$&nbsp;11,000</span>
+                    <h3>3398Lodgeville Road</h3>
+                    <p>califonia, USA</p>
+
+                </div>
+
+                <div class="pro-deatils">
+                    <ul class="felx-spc">
+                        <li>
+                            <p>Area:</p>
+                        </li>
+                        <li>
+                            <p>Bed:</p>
+                        </li>
+                        <li>
+                            <p>Bath:</p>
+                        </li>
+                        <li>
+                            <p>Garage:</p>
+                        </li>
+                    </ul>
+                    <ul class="felx-spc">
+                        <li>
+                            <p>01:</p>
+                        </li>
+                        <li>
+                            <p>2:</p>
+                        </li>
+                        <li>
+                            <p>1:</p>
+                        </li>
+                        <li>
+                            <p>0:</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pro-col">
+                <div class="pro-img">
+
+                    <img src="./image-box/house/jens-behrmann-rU-R1Gx7RrI-unsplash.jpg" alt="">
+
+                </div>
+                <div class="pro-info">
+                    <span class="price">$&nbsp;11,000</span>
+                    <h3>3398Lodgeville Road</h3>
+                    <p>califonia, USA</p>
+                </div>
+
+
+                <div class="pro-deatils">
+                    <ul class="felx-spc">
+                        <li>
+                            <p>Area:</p>
+                        </li>
+                        <li>
+                            <p>Bed:</p>
+                        </li>
+                        <li>
+                            <p>Bath:</p>
+                        </li>
+                        <li>
+                            <p>Garage:</p>
+                        </li>
+                    </ul>
+                    <ul class="felx-spc">
+                        <li>
+                            <p>01:</p>
+                        </li>
+                        <li>
+                            <p>2:</p>
+                        </li>
+                        <li>
+                            <p>1:</p>
+                        </li>
+                        <li>
+                            <p>0:</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pro-col">
+                <div class="pro-img">
+                    <img src="./image-box/house/derek-thomson-p50HcC0YrL0-unsplash.jpg" alt="">
+                </div>
+                <div class="pro-info">
+                    <span class="price">$&nbsp;11,000</span>
+                    <h3>3398Lodgeville Road</h3>
+                    <p>califonia, USA</p>
+                </div>
+
+                <div class="pro-deatils">
+                    <ul class="felx-spc">
+                        <li>
+                            <p>Area:</p>
+                        </li>
+                        <li>
+                            <p>Bed:</p>
+                        </li>
+                        <li>
+                            <p>Bath:</p>
+                        </li>
+                        <li>
+                            <p>Garage:</p>
+                        </li>
+                    </ul>
+                    <ul class="felx-spc">
+                        <li>
+                            <p>01:</p>
+                        </li>
+                        <li>
+                            <p>2:</p>
+                        </li>
+                        <li>
+                            <p>1:</p>
+                        </li>
+                        <li>
+                            <p>0:</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pro-col">
+                <div class="pro-img">
+                    <img src="./image-box/house/dan-gold-4HG3Ca3EzWw-unsplash.jpg" alt="">
+
+
+                </div>
+                <div class="pro-info">
+                    <span class="price">$&nbsp;11,000</span>
+                    <h3>3398Lodgeville Road</h3>
+                    <p>califonia, USA</p>
+                </div>
+
+                <div class="pro-deatils">
+                    <ul class="felx-spc">
+                        <li>
+                            <p>Area:</p>
+                        </li>
+                        <li>
+                            <p>Bed:</p>
+                        </li>
+                        <li>
+                            <p>Bath:</p>
+                        </li>
+                        <li>
+                            <p>Garage:</p>
+                        </li>
+                    </ul>
+                    <ul class="felx-spc">
+                        <li>
+                            <p>01:</p>
+                        </li>
+                        <li>
+                            <p>2:</p>
+                        </li>
+                        <li>
+                            <p>1:</p>
+                        </li>
+                        <li>
+                            <p>0:</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="p2" id="Tst">
+        <div class="pro-heading sectionP1">
+            <h1>Testimonial</h1>
+            <hr>
+        </div>
+        <div class="slideshow-container">
+            <div class="slideshow-elements">
+                <div class="slideshow-element current">
+                    <div class="slide-avat">
+                        <img src="./image-box/avt/creator1.jpg" alt="">
+                    </div>
+                    <div class="side-col-info">
+                        <h2>Freed</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda velit expedita iusto
+                            magni quaerat veniam et qui? Quo dignissimos numquam provident iusto error odit quidem
+                            voluptatum sequi! Quia, accusantium consectetur.</p>
+                        <a href="">More</a>
+                    </div>
+                </div>
+
+                <div class="slideshow-element">
+                    <div class="slide-avat">
+                        <img src="./image-box/avt/creator2.jpg" alt="">
+                    </div>
+                    <div class="side-col-info">
+                        <h2>Tom</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda velit expedita iusto
+                            magni quaerat veniam et qui? Quo dignissimos numquam provident iusto error odit quidem
+                            voluptatum sequi! Quia, accusantium consectetur.</p>
+                        <a href="">More</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+    <section class="p2">
+        <div class="pro-heading sectionP1">
+            <h1>Partner</h1>
+            <hr>
+        </div>
+        <div class="felx-spc brand">
+            <div class="part">
+                <img src="./image-box/brand/1.png" alt="">
+            </div>
+            <div class="part">
+                <img src="./image-box/brand/1.webp" alt="">
+            </div>
+            <div class="part">
+                <img src="./image-box/brand/2.png" alt="">
+            </div>
+            <div class="part">
+                <img src="./image-box/brand/2.png" alt="">
+            </div>
+            <div class="part">
+                <img src="./image-box/brand/6.png" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class=" ft p2">
+        <div class="footer-content flex-col-2  ft-col">
+            <h2>About Us</h2>
+            <p>Vel fermentum ipsum. Suspendisse quis molestie odio. Interdum et malesuada fames ac ante ipsum primis in
+                faucibus. Quisque aliquet a metus in aliquet. Praesent ut turpis posuere, commodo odio id, ornare tortor
+            </p>
+            <a class="btn-2" href="">Read More &nbsp;<i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="ft-properties flex-col-2 ft-col">
+           <ul class="felx-spc ft-img">
+            <li><img src="./image-box/house/dan-gold-4HG3Ca3EzWw-unsplash.jpg" alt=""></li>
+            <li><img src="./image-box/house/aaron-huber-s95oB2n9jng-unsplash.jpg" alt=""></li>
+            <li><img src="./image-box/house/dan-gold-4HG3Ca3EzWw-unsplash.jpg" alt=""></li>
+
+            </ul>
+            <ul class="felx-spc ft-img">
+        
+            <li><img src="./image-box/house/derek-thomson-p50HcC0YrL0-unsplash.jpg" alt=""></li>
+            <li><img src="./image-box/house/sidekix-media-4-7s995Kv1U-unsplash.jpg" alt=""></li>
+            <li><img src="./image-box/house/jens-behrmann-rU-R1Gx7RrI-unsplash.jpg" alt=""></li>
+
+            </ul>
+        </div>
+       <div>
+        <ul class="felx-col-2  ft-cont">
+            <li>
+                <h2>Contact</h2>
+            </li>
+            <li>
+                <h3>Company</h3>
+            </li>
+            <li>
+            
+                <a href="">4877 Spruce Drive</a>
+            </li>
+
+            <li>
+              <a href="">+1 (734) 123-4567</a>
+            </li>
+            <li><a class="blue" href="">hello@example.com</a></li>
+
+        </ul>
+       </div> 
+     <div>
+        <ul class="flex-col-2 ft-link">
+
+            <li>
+                <h2> Useful Links</h2>
+            </li>
+            <li><a href=""> Privacy Policy </a></li>
+            <li><a href=""> Login and Register Account</a></li>
+            <li><a href=""> FAQ</a></li>
+            <li><a href=""> Terms and Conditions</a></li>
+
+
+
+        </ul>
+     </div>
+
+
+    </footer>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

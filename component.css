@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,600&family=Roboto:wght@700&display=swap');
+
+.sectionP1{
+ padding: 1rem;
+}
+.p2{
+    padding: 3rem;
+}
+.felx-spc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.felx-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.text-start{
+    text-align:start;
+}
+.flex-row{
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.felx-col-2{
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    flex-direction: column;
+}
+#close{
+    display: none;
+}
+#bar{
+    display: none;
+}
